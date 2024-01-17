@@ -1,11 +1,11 @@
 const express = require('express');
+
 const app = express();
-const port = 4000;
 
 app.get("/", (req, res) => {
-    res.send("welcome to nodejs project list")
+    res.send("welcome to hello world update")
 })
 
-app.listen(port, () => {
-    console.log("server is running at " + port);
+app.listen(4000, () => {
+    console.log("our app is listening  at 4000")
 })
