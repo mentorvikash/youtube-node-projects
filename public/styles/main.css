@@ -1,0 +1,33 @@
+.container {
+  border: 1px solid red;
+  padding: 10px 20px;
+}
+
+.heading {
+  color: darkcyan;
+  font-style: normal;
+  font-family: monospace;
+  text-align: center;
+}
+
+.list-container {
+  font-size: 24px;
+  font-weight: 600;
+  color: brown;
+  font-style: italic;
+  padding-right: 9px;
+}
+
+a {
+  padding-left: 12px;
+}
+
+button {
+  color: white;
+  background: black;
+  padding: 6px 17px;
+  border: 1px solid;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-top: 10px;
+}
