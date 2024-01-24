@@ -13,10 +13,6 @@ app.set("view engine", "ejs")
 const indexRoutes = require("./routes/index")
 app.use("/", indexRoutes)
 
-app.get("/", (req, res) => {
-    res.send("welcome to nodejs project list")
-})
-
 app.listen(port, () => {
     console.log("server is running at " + port);
 })

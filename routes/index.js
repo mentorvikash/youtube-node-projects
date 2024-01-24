@@ -6,9 +6,6 @@ const router = express.Router()
 const apiKey = "211158a74590af681a5f6a978c12427e"
 const Url = "https://api.openweathermap.org/data/2.5/weather";
 
-router.get("/user", function (req, res) {
-    res.send("this is our user routes")
-})
 
 router.get("/weather", function (req, res) {
     res.render("index", { weatherData: null, error: null })
